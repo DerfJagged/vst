@@ -21,6 +21,7 @@
  */
 #include <SPI.h>
 #include <Time.h>
+#include <TimeLib.h>
 #include "DMAChannel.h"
 
 #define CONFIG_FONT_HERSHEY
