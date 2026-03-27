@@ -4,6 +4,7 @@
 import processing.serial.*;
 
 Serial vector_serial; 
+String serial_port = ""; // e.g. "COM3"
 
 static byte[] bytes = new byte[8192];
 static int byte_count = 0;
@@ -16,18 +17,24 @@ static int last_y;
 void
 vector_setup()
 {
-	// finding the right port requires picking it from the list
-	// should look for one that matches "ttyACM*" or "tty.usbmodem*"
-	for(String port : Serial.list())
-	{
-		println(port);
-		if (match(port, "usbmode|ACM") == null)
-			continue;
-		vector_serial = new Serial(this, port, 9600); 
-		return;
-	}
-  
-	println("No valid serial ports found?\n");
+	// finding the right port requires picking it from the list, if not specified
+  // should look for one that matches "ttyACM*" or "tty.usbmodem*"
+  if (serial_port != null && serial_port != "") {
+    vector_serial = new Serial(this, serial_port, 9600);
+  }
+  else {
+    for (String port : Serial.list()) {
+      println(port);
+      if (match(port, "usbmode|ACM") == null) {
+        continue;
+      }
+      vector_serial = new Serial(this, port, 9600);
+    }
+   
+    if (vector_serial == null) {
+      println("Please specify your serial port in vector.pde\n");
+    }
+  }
 }
 
 
