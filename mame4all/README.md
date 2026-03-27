@@ -12,7 +12,7 @@ If you have `xboxdrv` installed, it will automatically enable use of a connected
 * Escape: Back/exit
 * Tab: Open menu (all other controls can be found and mapped from here)
 
-## Games
+## Vector Games List
 Games must be placed in the "roms" folder and must be named as the MAME-specific name followed by ".zip" or ".7z". All vector-based game names that I could find are listed below.
 
 | MAME Name  |
