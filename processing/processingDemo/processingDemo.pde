@@ -22,7 +22,6 @@ void setup() {
   demos.add(new SwarmDemo());
   demos.add(new QixDemo());
   demos.add(new SpiralDemo());
-  //demos.add(new DemoSVG("32c3_knot.svg"));
 }
 
 void draw() {
