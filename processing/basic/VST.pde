@@ -1,6 +1,8 @@
 import java.util.Iterator;
 import processing.serial.*;
 
+String serial_port = "COM3";
+
 void line(float x0, float y0, float x1, float y1) {
   if (vst.overload) {
     vst.line(x0, y0, x1, y1);
@@ -87,18 +89,23 @@ void quad(PVector p0, PVector p1, PVector p2, PVector p3) {
 }
 
 Serial createSerial() {
-  // finding the right port requires picking it from the list
+  // finding the right port requires picking it from the list, if not specified
   // should look for one that matches "ttyACM*" or "tty.usbmodem*"
-  for (String port : Serial.list()) {
-    println(port);
-    if (match(port, "usbmode|ACM") == null) {
-      continue;
-    }
-    return new Serial(this, port, 9600);
+  if (serial_port != null && serial_port != "") {
+    return new Serial(this, serial_port, 9600);
   }
-
-  println("No valid serial ports found?\n");
-  return null;
+  else {
+    for (String port : Serial.list()) {
+      println(port);
+      if (match(port, "usbmode|ACM") == null) {
+        continue;
+      }
+      return new Serial(this, port, 9600);
+    }
+   
+    println("Please specify your serial port in VST.pde\n");
+    return null;
+  }
 }
 
 class Vst {
