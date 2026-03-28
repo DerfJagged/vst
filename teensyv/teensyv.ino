@@ -32,8 +32,8 @@
 #include "asteroids_font.h"
 #endif
 
-#define CONFIG_VECTREX
-//#define CONFIG_VECTORSCOPE
+//#define CONFIG_VECTREX
+#define CONFIG_VECTORSCOPE
 
 // If you just want a scope clock,
 // solder a 32.768 KHz crystal to the teensy and provide a backup
@@ -65,7 +65,7 @@
 #define BRIGHT_SHIFT	0	// larger numbers == dimmer lines
 #define NORMAL_SHIFT	1	// no z-axis, so we must have a difference
 #define OFF_JUMP		// don't wait for beam, just go!
-#define REST_X		0	// wait off screen
+#define REST_X		2048	// wait off screen
 #define REST_Y		0
 
 #undef FULL_SCALE		// only use -1.25 to 1.25V range
@@ -101,7 +101,7 @@
 #define REST_X		2048	// wait in the center of the screen
 #define REST_Y		2048
 
-#define CONFIG_BRIGHTNESS	// use the brightness DAC
+#undef CONFIG_BRIGHTNESS	// use the brightness DAC
 #define BRIGHT_OFF	2048	// "0 volts", relative to reference
 #define BRIGHT_NORMAL	3200	// fairly bright
 #define BRIGHT_BRIGHT	4095	// super bright
