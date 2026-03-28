@@ -13,106 +13,47 @@ If you have `xboxdrv` installed, it will automatically enable use of a connected
 * Tab: Open menu (all other controls can be found and mapped from here)
 
 ## Vector Games List
-Games must be placed in the "roms" folder and must be named as the MAME-specific name followed by ".zip" or ".7z". All vector-based game names that I could find are listed below.
+Games must be placed in the "roms" folder and must be named as the MAME-specific name followed by ".zip" or ".7z". All vector-based game names that I could find are listed below, with their status of being visible in mame4all or not, and notes.
 
-| MAME Name  |
-|------------|
-| aerolitol  |
-| armora     |
-| armorap    |
-| armorar    |
-| asterock   |
-| asterockv  |
-| asteroidb1 |
-| asteroidb2 |
-| asteroidb  |
-| asteroid1  |
-| asteroid2  |
-| asteroid   |
-| astdelux1  |
-| astdelux2  |
-| astdelux   |
-| barrier    |
-| bzonec     |
-| bzonea     |
-| bzone      |
-| bradley    |
-| dsrtwars   |
-| hyperspc   |
-| llander1   |
-| llander    |
-| llandert   |
-| meteorbl   |
-| meteorho   |
-| meteorite  |
-| meteorts   |
-| omegrace   |
-| omegrace2  |
-| omegrace3  |
-| redbarona  |
-| redbaron   |
-| ripoff     |
-| spcrocks   |
-| spaceshp   |
-| spacewar   |
-| speedfrk   |
-| starcasc   |
-| starcase   |
-| starcas1   |
-| starcasp   |
-| starcas    |
-| starhawk   |
-| stellcas   |
-| sundance   |
-| tailg      |
-| warrior    |
-| alphaone   |
-| alphaona   |
-| aztarac    |
-| bwidow     |
-| boxingb    |
-| cchasm     |
-| cchasm1    |
-| deltrace   |
-| demon      |
-| elim2c     |
-| elim2      |
-| elim2a     |
-| elim4      |
-| elim4p     |
-| gravp      |
-| gravitr2   |
-| gravitar   |
-| lunarba1   |
-| lunarbat   |
-| llander1   |
-| llander    |
-| mhavocp    |
-| mhavocrv   |
-| mhavoc2    |
-| mhavoc     |
-| qb3        |
-| quantump   |
-| quantum1   |
-| quantum    |
-| solarq     |
-| spacduel   |
-| spaceftr   |
-| spacfura   |
-| spacfurb   |
-| spacfury   |
-| startrek   |
-| starwar1   |
-| starwars   |
-| tacscan    |
-| tempest1   |
-| tempest2   |
-| tempest3   |
-| tempest    |
-| temptube   |
-| esb        |
-| tomcatsw   |
-| topgunnr   |
-| wotw       |
-| wotwc      |
-| zektor     |
+| ROM Name   | Visible in mame4all | Name Shown in MAME            | Notes                           |
+|------------|---------------------|-------------------------------|---------------------------------|
+| aerolitol  | No                  |                               |                                 |
+| alphaona   | No                  |                               |                                 |
+| alphaone   | No                  |                               |                                 |
+| armora     | Yes                 | Armor Attack                  | Crashes MAME                    |
+| armorap    | No                  |                               |                                 |
+| armorar    | No                  |                               |                                 |
+| astdelux   | No                  |                               |                                 |
+| astdelux1  | No                  |                               |                                 |
+| astdelux2  | Yes                 | Asteroids Deluxe (rev 2)      | None                            |
+| asterock   | No                  |                               |                                 |
+| asterockv  | No                  |                               |                                 |
+| asteroid   | Yes                 | Asteroids (rev 2)             |                                 |
+| asteroid1  | No                  |                               |                                 |
+| asteroid2  | No                  |                               |                                 |
+| asteroidb  | No                  |                               |                                 |
+| asteroidb1 | No                  |                               |                                 |
+| asteroidb2 | No                  |                               |                                 |
+| aztarac    | Yes                 | Aztarac                       | None                            |
+| barrier    | Yes                 | Barrier                       | None                            |
+| boxingb    | Yes                 | Boxing Bugs                   | None                            |
+| bradley    | No                  |                               |                                 |
+| bwidow     | Yes                 | Black Widow                   | Error about missing files; runs |
+| bzone      | ?                   | Battle Zone (set 1)           | None                            |
+| bzonea     | ?                   |                               | None                            |
+| bzonec     | ?                   |                               | None                            |
+| cchasm     | Yes                 | Cosmic Chasm (set 1)          |                                 |
+| cchasm1    | Yes                 | Cosmic Chasm (set 2)          |                                 |
+| deltrace   | No                  |                               |                                 |
+| demon      | Yes                 | Demon                         |                                 |
+| dsrtwars   | No                  |                               |                                 |
+| elim2      | ?                   | Eliminator (2 Players, set 1) | None                            |
+| elim2a     | ?                   | Eliminator (2 Players, set 2) | None                            |
+| elim2c     | ?                   | Eliminator (4 Players)        | None                            |
+| elim4      | ?                   |                               | None                            |
+| elim4p     | ?                   |                               | None                            |
+| esb        | Yes                 | Empire Strikes Back, The      | Flickery; too many vectors      |
+| gravitar   | Yes                 | Gravitar (Version 3)          |                                 |
+| gravitr2   | ?                   |                               |                                 |
+| gravp      | ?                   |                               |                                 |
+| hyperspc   | No                  |                               |                                 |
