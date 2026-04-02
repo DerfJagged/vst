@@ -15,6 +15,8 @@ If you have `xboxdrv` installed, it will automatically enable use of a connected
 ## Vector Games List
 Games must be placed in the "roms" folder and must be named as the MAME-specific name followed by ".zip" or ".7z". All vector-based game names that I could find are listed below, with their status of being visible in mame4all or not, and notes.
 
+The proper ROM names can be found in the list below, or if not on the list, on [this list for Vectrex games](https://github.com/mamedev/mame/blob/master/hash/vectrex.xml).
+
 | ROM Name   | Visible in mame4all | Name Shown in MAME            | Notes                                     |
 | ---------- | ------------------- | ----------------------------- | ----------------------------------------- |
 | aerolitol  | No                  |                               |                                           |
