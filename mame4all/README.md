@@ -38,30 +38,30 @@ The proper ROM names can be found in the list below, or if not on the list, on [
 | asteroidb2 | No                  |                               |                                           |
 | aztarac    | Yes                 | Aztarac                       | None                                      |
 | barrier    | Yes                 | Barrier                       | None                                      |
-| boxingb    | Yes                 | Boxing Bugs                   | None                                      |
+| boxingb    | Yes                 | Boxing Bugs                   | Must press tab > Dip Switches and turn Service Mode on; no sound |
 | bradley    | No                  |                               |                                           |
-| bwidow     | Yes                 | Black Widow                   | Error about missing files; runs           |
-| bzone      | ?                   | Battle Zone (set 1)           | None                                      |
-| bzonea     | ?                   |                               | None                                      |
-| bzonec     | ?                   |                               | None                                      |
-| cchasm     | Yes                 | Cosmic Chasm (set 1)          |                                           |
-| cchasm1    | Yes                 | Cosmic Chasm (set 2)          |                                           |
+| bwidow     | Yes                 | Black Widow                   | Error about missing files; runs regardless |
+| bzone      | Yes                 | Battle Zone (set 1)           | None                                      |
+| bzonea     | No                  |                               | If forced to run, works fine                                          |
+| bzonec     | No                  |                               | If forced to run, "Required files are missing; the game cannot be run" |
+| cchasm     | Yes                 | Cosmic Chasm (set 1)          | Graphics and tab menu do not display correctly on Pi, but work on XY monitor |
+| cchasm1    | Yes                 | Cosmic Chasm (set 2)          | Graphics and tab menu do not display correctly on Pi, but work on XY monitor |
 | deltrace   | No                  |                               |                                           |
-| demon      | Yes                 | Demon                         |                                           |
+| demon      | Yes                 | Demon                         | Audio hiss                                |
 | dsrtwars   | No                  |                               |                                           |
-| elim2      | ?                   | Eliminator (2 Players, set 1) | None                                      |
-| elim2a     | ?                   | Eliminator (2 Players, set 2) | None                                      |
-| elim2c     | ?                   | Eliminator (4 Players)        | None                                      |
-| elim4      | ?                   |                               | None                                      |
-| elim4p     | ?                   |                               | None                                      |
+| elim2      | Yes                 | Eliminator (2 Players, set 1) | None                                      |
+| elim2a     | Yes                 | Eliminator (2 Players, set 2) | None                                      |
+| elim2c     | No                  |                               | If forced to run, "Required files are missing; the game cannot be run" |
+| elim4      | Yes                 | Eliminator (4 Players)        | None                                      |
+| elim4p     | No                  |                               | If forced to run, "Required files are missing; the game cannot be run" |
 | esb        | Yes                 | Empire Strikes Back, The      | Flickery; too many vectors                |
 | gravitar   | Yes                 | Gravitar (Version 3)          |                                           |
-| gravitr2   | ?                   |                               |                                           |
-| gravp      | ?                   |                               |                                           |
+| gravitr2   | Yes                 | Gravitar (Version 2)          |                                           |
+| gravp      | No                  |                               | If forced to run, "Required files are missing; the game cannot be run" |
 | hyperspc   | No                  |                               |                                           |
-| llander    | ?                   | Lunar Lander (rev 1)          | "Missing files; no good dump known", runs |
-| llander1   | ?                   | Lunar Lander (rev 2)          | "Missing files; no good dump known", runs |
-| llandert   | ?                   |                               | "Missing files; no good dump known", runs |
+| llander    | Yes                 | Lunar Lander (rev 2)          | "Missing files; no good dump known", runs regardless |
+| llander1   | Yes                 | Lunar Lander (rev 1)          | "Missing files; no good dump known", runs regardless |
+| llandert   | No                  |                               | If forced to run, crashes                 |
 | lunarba1   | No                  |                               |                                           |
 | lunarbat   | No                  |                               |                                           |
 | meteorbl   | No                  |                               |                                           |
@@ -73,8 +73,8 @@ The proper ROM names can be found in the list below, or if not on the list, on [
 | mhavocp    | Yes                 | Major Havock (prototype)      | None                                      |
 | mhavocrv   | Yes                 | Major Havock (Return to Vax)  | Black screen                              |
 | omegrace   | Yes                 | Omega Race                    | None                                      |
-| omegrace2  | ?                   |                               | None                                      |
-| omegrace3  | ?                   |                               | None                                      |
+| omegrace2  | No                  |                               | If forced to run, "Required files are missing; the game cannot be run" |
+| omegrace3  | No                  |                               | If forced to run, "Required files are missing; the game cannot be run" |
 | qb3        | No                  |                               |                                           |
 | quantum    | Yes                 | Quantum (rev 2)               | None                                      |
 | quantum1   | Yes                 | Quantum (rev 1)               | None                                      |
@@ -88,12 +88,12 @@ The proper ROM names can be found in the list below, or if not on the list, on [
 | spaceshp   | No                  |                               |                                           |
 | spacewar   | Yes                 | Space Wars                    | None                                      |
 | spacfura   | Yes                 | Space Fury (revision A)       | None                                      |
-| spacfurb   | ?                   |                               |                                           |
+| spacfurb   | ?                   |                               | If forced to run, "Required files are missing; the game cannot be run" |
 | spacfury   | Yes                 | Space Fury (revision C)       | None                                      |
 | spcrocks   | No                  |                               |                                           |
 | speedfrk   | Yes                 | Speed Freak                   | None                                      |
-| starcas    | ?                   | Star Castle (older)           | Only displays on scope                    |
-| starcas1   | ?                   | Star Castle (version 3)       | Only displays on scope                    |
+| starcas    | Yes                 | Star Castle (version 3)       | Only displays on scope                    |
+| starcas1   | Yes                 | Star Castle (older)           | Only displays on scope                    |
 | starcasc   | No                  |                               |                                           |
 | starcase   | No                  |                               |                                           |
 | starcasp   | No                  |                               |                                           |
@@ -105,10 +105,10 @@ The proper ROM names can be found in the list below, or if not on the list, on [
 | sundance   | Yes                 | Sundance                      | Only displays on scope                    |
 | tacscan    | Yes                 | Tac/Scan                      | None                                      |
 | tailg      | Yes                 | Tailgunner                    | Only displays on scope                    |
-| tempest    | ?                   |                               | None                                      |
-| tempest1   | ?                   | Tempest (rev 1)               | None                                      |
-| tempest2   | ?                   | Tempest (rev 2)               | None                                      |
-| tempest3   | ?                   | Tempest (rev 3)               | None                                      |
+| tempest    | Yes                 | Tempest (rev 3)               | None                                      |
+| tempest1   | Yes                 | Tempest (rev 1)               | None                                      |
+| tempest2   | Yes                 | Tempest (rev 2)               | None                                      |
+| tempest3   | No                  |                               | If forced to run, "Required files are missing; the game cannot be run" |
 | temptube   | Yes                 | Tempest Tubes                 | None                                      |
 | tomcatsw   | No                  |                               |                                           |
 | topgunnr   | No                  |                               |                                           |
