@@ -59,8 +59,8 @@ The proper ROM names can be found in the list below, or if not on the list, on [
 | gravitr2   | Yes                 | Gravitar (Version 2)          |                                           |
 | gravp      | No                  |                               | If forced to run, "Required files are missing; the game cannot be run" |
 | hyperspc   | No                  |                               |                                           |
-| llander    | Yes                 | Lunar Lander (rev 2)          | "Missing files; no good dump known", runs regardless |
-| llander1   | Yes                 | Lunar Lander (rev 1)          | "Missing files; no good dump known", runs regardless |
+| llander    | Yes                 | Lunar Lander (rev 2)          | "Missing files; no good dump known", runs regardless; audio buzz |
+| llander1   | Yes                 | Lunar Lander (rev 1)          | "Missing files; no good dump known", runs regardless; audio buzz |
 | llandert   | No                  |                               | If forced to run, crashes                 |
 | lunarba1   | No                  |                               |                                           |
 | lunarbat   | No                  |                               |                                           |
