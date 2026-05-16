@@ -81,30 +81,30 @@ The proper ROM names can be found in the list below, or if not on the list, on [
 | quantump   | Yes                 | Quantum (prototype)           | None                                      |
 | redbaron   | Yes                 | Red Baron                     | None                                      |
 | redbarona  | No                  |                               |                                           |
-| ripoff     | Yes                 | Rip Off                       | None                                      |
-| solarq     | Yes                 | Solar Quest                   | Only displays on scope                    |
-| spacduel   | Yes                 | Space Duel                    | None                                      |
+| ripoff     | Yes                 | Rip Off                       | No audio                                  |
+| solarq     | Yes                 | Solar Quest                   | Only displays on scope, no audio          |
+| spacduel   | Yes                 | Space Duel                    | No music                                  |
 | spaceftr   | No                  |                               |                                           |
 | spaceshp   | No                  |                               |                                           |
-| spacewar   | Yes                 | Space Wars                    | None                                      |
+| spacewar   | Yes                 | Space Wars                    | No audio                                  |
 | spacfura   | Yes                 | Space Fury (revision A)       | None                                      |
 | spacfurb   | ?                   |                               | If forced to run, "Required files are missing; the game cannot be run" |
 | spacfury   | Yes                 | Space Fury (revision C)       | None                                      |
 | spcrocks   | No                  |                               |                                           |
-| speedfrk   | Yes                 | Speed Freak                   | None                                      |
-| starcas    | Yes                 | Star Castle (version 3)       | Only displays on scope                    |
-| starcas1   | Yes                 | Star Castle (older)           | Only displays on scope                    |
+| speedfrk   | Yes                 | Speed Freak                   | No audio                                  |
+| starcas    | Yes                 | Star Castle (version 3)       | Only displays on scope, no sound          |
+| starcas1   | Yes                 | Star Castle (older)           | Only displays on scope, no sound          |
 | starcasc   | No                  |                               |                                           |
 | starcase   | No                  |                               |                                           |
 | starcasp   | No                  |                               |                                           |
-| starhawk   | Yes                 | Star Hawk                     | None                                      |
+| starhawk   | Yes                 | Star Hawk                     | No sound                                  |
 | startrek   | Yes                 | Star Trek                     | None                                      |
 | starwar1   | Yes                 | Star Wars (rev 1)             | Flickery; too many vectors                |
-| starwars   | Yes                 | Star Wars (rev 2)             | Flickery; too many vectors                |
+| starwars   | Yes                 | Star Wars (rev 2)             | Doesn't boot                              |
 | stellcas   | No                  |                               |                                           |
-| sundance   | Yes                 | Sundance                      | Only displays on scope                    |
+| sundance   | Yes                 | Sundance                      | Only displays on scope, direction controls not working |
 | tacscan    | Yes                 | Tac/Scan                      | None                                      |
-| tailg      | Yes                 | Tailgunner                    | Only displays on scope                    |
+| tailg      | Yes                 | Tailgunner                    | Only displays on scope, no audio, direction controls not working |
 | tempest    | Yes                 | Tempest (rev 3)               | None                                      |
 | tempest1   | Yes                 | Tempest (rev 1)               | None                                      |
 | tempest2   | Yes                 | Tempest (rev 2)               | None                                      |
@@ -112,7 +112,7 @@ The proper ROM names can be found in the list below, or if not on the list, on [
 | temptube   | Yes                 | Tempest Tubes                 | None                                      |
 | tomcatsw   | No                  |                               |                                           |
 | topgunnr   | No                  |                               |                                           |
-| warrior    | Yes                 | Warrior                       | None                                      |
-| wotw       | Yes                 | War of the Worlds             | None                                      |
+| warrior    | Yes                 | Warrior                       | No audio, backdrop is not emulated so it's difficult |
+| wotw       | Yes                 | War of the Worlds             | No audio                                  |
 | wotwc      | No                  |                               |                                           |
-| zektor     | Yes                 | Zektor                        | None                                      |
+| zektor     | Yes                 | Zektor                        | No audio                                  |
